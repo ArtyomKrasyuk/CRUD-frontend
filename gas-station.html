@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/gas-station.css">
+    <title>CRUD приложение</title>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <div class="header__container">
+                <img src="images/Webalys-Kameleon.pics-Coding-Html.96.png" alt="">
+                <div class="header__nav">
+                    <a href="index.html" class="nav__elem">Фирма</a>
+                    <a href="fuel.html" class="nav__elem">Топливо</a>
+                    <a href="client.html" class="nav__elem">Клиент</a>
+                    <a href="firm-has-fuel.html" class="nav__elem">Фирма и топливо</a>
+                    <a href="gas-station.html" class="nav__elem active">Заправка</a>
+                    <a href="sale.html" class="nav__elem">Продажа</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="body">
+        <div class="content">
+            <div class="form-container">
+                <div class="form">
+                    <p class="form__text">Создание</p>
+                    <input type="text" id="firm-id-create" class="input" placeholder="Id фирмы">
+                    <input type="text" id="address-create" class="input" placeholder="Адрес">
+                    <button class="button" id="create">Добавить</button>
+                </div>
+                <div class="form">
+                    <p class="form__text">Изменение</p>
+                    <input type="text" id="id-update" class="input" placeholder="Id заправки">
+                    <input type="text" id="firm-id-update" class="input" placeholder="Id фирмы">
+                    <input type="text" id="address-update" class="input" placeholder="Адрес">
+                    <button class="button" id="update">Изменить</button>
+                </div>
+                <div class="form">
+                    <p class="form__text">Вывод/Удаление</p>
+                    <input type="text" id="id" class="input" placeholder="Id заправки">
+                    <button class="button" id="read">Вывести</button>
+                    <button class="button" id="delete">Удалить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="content">
+            <div class="footer__container">
+                <p class="footer__text">Красюк Артём и Сгибнев Владимир</p>
+                <p class="footer__text">Выполнено профессионалами</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/gas-station.js"></script>
+</body>
+</html>

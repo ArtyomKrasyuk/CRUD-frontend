@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/sale.css">
+    <title>CRUD приложение</title>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <div class="header__container">
+                <img src="images/Webalys-Kameleon.pics-Coding-Html.96.png" alt="">
+                <div class="header__nav">
+                    <a href="index.html" class="nav__elem">Фирма</a>
+                    <a href="fuel.html" class="nav__elem">Топливо</a>
+                    <a href="client.html" class="nav__elem">Клиент</a>
+                    <a href="firm-has-fuel.html" class="nav__elem">Фирма и топливо</a>
+                    <a href="gas-station.html" class="nav__elem">Заправка</a>
+                    <a href="sale.html" class="nav__elem active">Продажа</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="body">
+        <div class="content">
+            <div class="form-container">
+                <div class="form">
+                    <p class="form__text">Создание</p>
+                    <input type="text" id="client-id-create" class="input" placeholder="Id клиента">
+                    <input type="text" id="gas-station-id-create" class="input" placeholder="Id заправки">
+                    <input type="text" id="firm-id-create" class="input" placeholder="Id фирмы">
+                    <input type="text" id="fuel-id-create" class="input" placeholder="Id топлива">
+                    <input type="text" id="sale-date-create" class="input" placeholder="Дата продажи">
+                    <input type="text" id="liters-create" class="input" placeholder="Литры">
+                    <button class="button" id="create">Добавить</button>
+                </div>
+                <div class="form">
+                    <p class="form__text">Изменение</p>
+                    <input type="text" id="id-update" class="input" placeholder="Id продажи">
+                    <input type="text" id="client-id-update" class="input" placeholder="Id клиента">
+                    <input type="text" id="gas-station-id-update" class="input" placeholder="Id заправки">
+                    <input type="text" id="firm-id-update" class="input" placeholder="Id фирмы">
+                    <input type="text" id="fuel-id-update" class="input" placeholder="Id топлива">
+                    <input type="text" id="sale-date-update" class="input" placeholder="Дата продажи">
+                    <input type="text" id="liters-update" class="input" placeholder="Литры">
+                    <button class="button" id="update">Изменить</button>
+                </div>
+                <div class="form">
+                    <p class="form__text">Вывод/Удаление</p>
+                    <input type="text" id="id" class="input" placeholder="Id продажи">
+                    <button class="button" id="read">Вывести</button>
+                    <button class="button" id="delete">Удалить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="content">
+            <div class="footer__container">
+                <p class="footer__text">Красюк Артём и Сгибнев Владимир</p>
+                <p class="footer__text">Выполнено профессионалами</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/sale.js"></script>
+</body>
+</html>
